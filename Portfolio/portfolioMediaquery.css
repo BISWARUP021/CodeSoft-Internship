@@ -1,0 +1,252 @@
+@media screen and (max-width: 768px) {
+    /* Navigation bar */
+    
+    #nav-bar{
+        height: 10vh;
+    }
+    #nav-logo {
+      
+    width: 30%;
+  }
+  #user-icon {
+    height: 30px;
+    /* width: 50px; */
+  }
+  #nav-logo h1 {
+    font-size: 16px;
+  }
+  
+  
+  /* Hamburger */
+  #hamburger{
+      display: block;
+      padding-right: 15px;
+    }
+    #hamburger img{
+        height: 35px;
+    }
+    #nav-lists {
+      /* display: none; */
+      height: 100vh;
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      gap: 80px;
+      /* background-color: black; */
+      background-color: rgba(0,0,0, 0.9);
+      backdrop-filter: blur(8px);
+      top: 100%;
+      left: -100%;
+      transition: all 0.2s ease-in-out;
+      padding-bottom: 100px;
+    }
+    .active{
+        left: 0 !important;
+    }
+    #nav-lists a{
+        color: white;
+    }
+
+
+  /* Page 1 */
+  #page-1 {
+    /* overflow: hidden; */
+    padding: 0px 10px;
+  }
+  #page1-myImage {
+    height: 30vh;
+    margin-top: 60px;
+}
+#page1-myImage img {
+    height: 250px;
+    width: 250px;
+  }
+
+  #page1-content {
+    height: 70vh;
+    justify-content: flex-start;
+    padding-block: 0px;
+    padding-inline: 0px;
+    gap: 17px;
+  }
+  #page1-content h1 {
+    font-size: 30px;
+    width: 300px;
+    text-align: center;
+  }
+  #page1-content h3 {
+    width: 100%;
+    font-size: 17px;
+  }
+
+  #icons {
+    display: flex;
+  }
+
+  /* Page 2 */
+  #page-2 {
+    padding: 70px 10px 50px 10px;
+  }
+  #page2-heading {
+    height: 5vh;
+  }
+  #page2-line{
+    min-height: 8px;
+  }
+  #page2-heading h2 {
+    font-size: 30px;
+    width: 300px;
+    text-align: center;
+  }
+  #page2-heading h2 {
+    font-size: 30px;
+    width: 300px;
+    text-align: center;
+  }
+  #page2-heading p {
+    font-size: 18px;  
+    font-weight: 600;
+}
+  #page2-skills-section {
+    flex-direction: column;
+  }
+  #page2-left {
+    width: 100%;
+    align-items: center;    
+  }
+  #page2-left h3 {
+    width: 300px;
+    font-size: 30px;
+  }
+  #page2-left p {
+    width: 350px;
+    text-align:center;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #page2-right {
+    width: 100%;
+    margin-top: 50px;
+  }
+  #page2-right-skills {
+    width: 100%;
+  }
+
+  /* Page 3 */
+  #page-3 {
+    padding: 90px 10px 50px 10px;
+    gap: 10px;
+    /* overflow: hidden; */
+  }
+  #page3-heading {
+    width: 100%;
+  }
+  #page3-heading h2 {
+    font-size: 35px;
+    width: 300px;
+    text-align: center;
+  }
+  #page3-heading p {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .page3-project {
+    flex-direction: column;
+    padding: 0px 0px;
+    gap: 20px;
+  }
+  #page3-project-left {
+    height: 250px;
+    width: 100%;
+  }
+  #page3-project-left img {
+    height: 90%;
+    width: 90%;
+  }
+  #page3-project-right {
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+    padding-bottom: 15px;
+  }
+  #page3-project-right h3 {
+    width: 100%;
+    text-align: center;
+  }
+  #page3-project-right p {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  /* Page 4 */
+  #page-4 {
+    padding:0px 10px;
+    gap: 0px;
+  }
+  #page4-heading {
+    height: 45vh;
+    width: 100%;
+    margin: 0px;
+    justify-content: flex-end;
+  }
+  #page4-heading h1 {
+    width: 300px;
+    text-align: center;
+  }
+  #page4-heading p {
+font-size: 18px;
+font-weight: 600;
+  }
+  #message-box {
+    height: 51vh;
+    border-radius: 10px;
+  }
+
+  form{
+    padding-inline: 20px ;
+  }
+  #name-box {
+    height: 12%;
+  }
+  #email-box {
+    height: 12%;
+  }
+  input {
+    height: 100%;
+    width: 100%;
+}
+
+/* Page 5 */
+#page-5{
+    height: 100vh;
+    padding: 30px 10px 0px 10px;
+}
+.footer-section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    /* gap: 10px; */
+    
+}
+.footer-box{
+    width: 100%;
+    padding-inline: 50px;
+}
+.footer-box h2{
+    font-size: 30px;
+}
+
+
+
+
+
+
+}

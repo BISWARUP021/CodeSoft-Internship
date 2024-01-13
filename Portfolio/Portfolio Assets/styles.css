@@ -1,0 +1,179 @@
+ /*  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+ background-color: #4b0303;
+ color:white;
+
+
+}
+#box{
+    border: solid 2px black ;
+    border-radius: 8px;
+    background-color: rgb(234, 45, 77);
+    height: 50%;
+    width: 30%;
+}
+h1{
+    font-size: 3rem;
+    font: 700;
+}
+h2{
+    font-size: 2.5rem;
+    font: 700;
+}
+h3{
+    font-size: 2rem;
+    font: 700;
+}*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+ background-color: black;
+ color:blue;
+
+
+}
+#main{
+    height:100%;
+    width: 100%;
+}
+#nav{
+    height: 8vw;
+    width: 100%;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+   
+    
+}
+
+#nav img{
+  height: 50%;  
+  width:15%;
+  
+}
+img:hover{
+    cursor: pointer;
+}
+#part2{
+   color: rgb(221, 10, 45);
+    display: flex;
+     gap:20px;
+    
+}
+#part2 :hover{
+    cursor: pointer;
+}
+
+#part3{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    color: rgb(221,10,45);
+    
+}
+
+#part3 button{
+    padding: 10px 20px;
+    border: none;
+    background-color: aqua;
+    border-radius: 5px;
+}
+#part3 h3{
+    cursor:pointer ;  
+}
+#part3 button:hover{
+    cursor:pointer ;  
+ }
+ #bodypart{
+  text-align: center;
+    margin-top: 10px;
+    width: 100%;
+ }
+ #bodypart h1{
+    font-size: 5rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    z-index: 100;
+
+  
+ }
+ #bodypart SPAN{
+    background-color: brown;
+    border-radius:50px;
+    font-size: 1.5rem;
+    padding: 20px 40px;
+    cursor: pointer;
+ }
+ 
+ #bodypart #left-top{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 19%;
+    left:10%;
+    border-radius: 20px;
+ }
+ #bodypart #left-bottom{
+    height: 200px;
+    width: 200px;
+    position:absolute;
+    bottom: 16%;
+    left: 20%;
+    border-radius: 20px;
+
+
+ }
+
+ #bodypart #right-top{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 22%;
+    right: 16%;
+    border-radius: 20px;
+    z-index: 0;
+ }
+
+ #bodypart #right-bottom{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+    border-radius: 20px;
+ }
+ #bodypart h5{
+    position: absolute;
+    bottom: 16%;
+    left: 45%;
+    font-size: 1.5rem;
+    align-items: center;
+ }
+ #main2{
+    height: 100%;
+    width: 100%;
+ }
+
+
+
+
+
+
